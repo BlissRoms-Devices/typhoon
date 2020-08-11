@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="BlissRoms-Devices/android_device_xiaomi_phoenix" path="device/xiaomi/phoenix" remote="github" revision="q" />
-  <project name="BlissRoms-Devices/android_device_xiaomi_sm6150-common" path="device/xiaomi/sm6150-common" remote="github" revision="q" />
-  <project name="GZR-Kernels/Optimus_Drunk_Phoenix" path="kernel/xiaomi/sm6150" remote="github" revision="10.0" />
-  <project name="BlissRoms-Devices/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="q" />
-  <project name="crdroidandroid/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="10.0" />
+  <project name="vineelsai26/android_device_xiaomi_onclite" path="device/xiaomi/onclite" remote="github" revision="Bliss-12" />
+  <project name="vineelsai26/android_kernel_xiaomi_onclite" path="kernel/xiaomi/onclite" remote="github" revision="10" />
+  <project name="vineelsai26/android_vendor_xiaomi_onclite" path="vendor/xiaomi/onclite" remote="github" revision="10" />
 </manifest>
