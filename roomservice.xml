@@ -8,6 +8,7 @@
   <project name="BlissRoms-Devices/android_device_samsung_crownlte" path="device/samsung/crownlte" remote="github" revision="q" />
   <project name="BlissRoms-Devices/android_device_samsung_starlte" path="device/samsung/starlte" remote="github" revision="q" />
   <project name="BlissRoms-Devices/android_device_huawei_angler" path="device/huawei/angler" remote="github" revision="q" />
+  <project name="vineelsai26/android_device_xiaomi_onclite" path="device/xiaomi/onclite" remote="github" revision="Bliss-12" />
   <project name="BlissRoms-Devices/android_device_google_marlin" path="device/google/marlin" remote="github" revision="q" />
   <!--Hardware-->
   <project name="crdroidandroid/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="10.0" />
@@ -16,11 +17,13 @@
   <project name="BlissRoms-Devices/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="q" />
   <project name="BlissRoms-Devices/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="q" />
   <project name="BlissRoms-Devices/android_vendor_huawei" path="vendor/huawei" remote="github" revision="q" />
+  <project name="vineelsai26/android_vendor_xiaomi_onclite" path="vendor/xiaomi/onclite" remote="github" revision="10" />
   <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" remote="github" revision="lineage-17.1" />
   <!--Kernel-->
   <project name="GZR-Kernels/Optimus_Drunk_Phoenix" path="kernel/xiaomi/sm6150" remote="github" revision="10.0" />
   <project name="BlissRoms-Devices/android_kernel_samsung_universal9810" path="kernel/samsung/universal9810" remote="github" revision="4.9.118_q" />
   <project name="BlissRoms-Devices/android_kernel_huawei_angler" path="kernel/huawei/angler" remote="github" revision="q" />
+  <project name="vineelsai26/android_kernel_xiaomi_onclite" path="kernel/xiaomi/onclite" remote="github" revision="10" />
   <project name="LineageOS/android_kernel_google_marlin" path="kernel/google/marlin" remote="github" revision="lineage-17.1" />
   <!-- Clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-6607189" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6607189" remote="github" revision="10.0" clone-depth="1" />
