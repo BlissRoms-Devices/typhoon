@@ -14,10 +14,8 @@
   <project name="crdroidandroid/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="10.0" />
   <project name="BlissRoms/platform_hardware_samsung" path="hardware/samsung" remote="github" revision="q" />
   <!--Vendor-->
-  <project name="BlissRoms-Devices/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="q" />
   <project name="BlissRoms-Devices/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="q" />
   <project name="BlissRoms-Devices/android_vendor_huawei" path="vendor/huawei" remote="github" revision="q" />
-  <project name="vineelsai26/android_vendor_xiaomi_onclite" path="vendor/xiaomi/onclite" remote="github" revision="10" />
   <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" remote="github" revision="lineage-17.1" />
   <!--Kernel-->
   <project name="GZR-Kernels/Optimus_Drunk_Phoenix" path="kernel/xiaomi/sm6150" remote="github" revision="10.0" />
