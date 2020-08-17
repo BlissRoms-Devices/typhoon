@@ -2,7 +2,7 @@
 <manifest>
   <!--Device trees-->
   <project name="BlissRoms-Devices/android_device_samsung_universal9810-common" path="device/samsung/universal9810-common" remote="github" revision="q" />
-  <project name="BlissRoms-Devices/android_device_samsung_star2lte" path="device/samsung/star2lte" remote="github" revision="q" />
+  <project name="BlissRoms-Devices/android_device_samsung_starlte" path="device/samsung/starlte" remote="github" revision="q" />
 
   <!--Hardware-->
   <project name="BlissRoms/platform_hardware_samsung" path="hardware/samsung" remote="github" revision="q" />
