@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!--Device trees-->
-  <project name="BlissRoms-Devices/android_device_samsung_universal9810-common" path="device/samsung/universal9810-common" remote="github" revision="q" />
-  <project name="BlissRoms-Devices/android_device_samsung_crownlte" path="device/samsung/crownlte" remote="github" revision="q" />
-
-  <!--Hardware-->
-  <project name="BlissRoms/platform_hardware_samsung" path="hardware/samsung" remote="github" revision="q" />
+  <project name="BlissRoms-Devices/android_device_google_marlin" path="device/google/marlin" remote="github" revision="q" />
 
   <!--Vendor-->
-  <project name="BlissRoms-Devices/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="q" />
+  <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" remote="github" revision="lineage-17.1" />
 
   <!--Kernel-->
-  <project name="BlissRoms-Devices/android_kernel_samsung_universal9810" path="kernel/samsung/universal9810" remote="github" revision="4.9.118_q" />
+  <project name="LineageOS/android_kernel_google_marlin" path="kernel/google/marlin" remote="github" revision="lineage-17.1" />
+
+  <!-- external/google -->
+  <project name="BlissRoms/platform_external_google" path="external/google" remote="github" revision="q" />
 
 </manifest>
