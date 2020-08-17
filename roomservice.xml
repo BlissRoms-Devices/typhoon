@@ -2,16 +2,13 @@
 <manifest>
 
   <!--Device trees-->
-  <project name="BlissRoms-Devices/android_device_xiaomi_whyred" path="device/xiaomi/whyred" remote="github" revision="q"/>
-  <project name="BlissRoms-Devices/android_device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="github" revision="q-whyred"/>
+  <project name="BlissRoms-Devices/android_device_xiaomi_tissot" path="device/xiaomi/tissot" remote="github" revision="q" />
+  <project name="BlissRoms-Devices/android_device_xiaomi_msm8953-common" path="device/xiaomi/msm8953-common" remote="github" revision="q" />
 
   <!--Vendor-->
-  <project name="BlissRoms-Devices/vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="q"/>
+  <project name="BlissRoms-Devices/proprietary_vendor_xiaomi_tissot" path="vendor/xiaomi" remote="github" revision="q" />
 
   <!--Kernel-->
-  <project name="xiaomeme-whyred/android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="github" revision="10.x"/>
-
-  <!-- MiuiCamera -->
-  <project name="xiaomeme-whyred/vendor_MiuiCamera" path="vendor/MiuiCamera" remote="github" revision="10.x"/>
+  <project name="DerpFest-Devices/kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="github" revision="derp10" />
 
 </manifest>
