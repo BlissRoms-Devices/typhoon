@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <remote name="blisspvt"
+           fetch="ssh://git@github.com/BlissRoms-Devices" />
+
   <!--Device trees-->
-  <project name="BlissRoms-Devices/android_device_yu_garlic" path="device/yu/garlic" remote="github" revision="q" />
-  <project name="BlissRoms-Devices/android_device_tinno_msm8937-common" path="device/tinno/msm8937-common" remote="github" revision="q" />
+  <project name="BlissRoms-Devices/android_device_xiaomi_lavender" path="device/xiaomi/lavender" remote="github" revision="q" />
+
   <!--Vendor-->
-  <project name="BlissRoms-Devices/proprietary_vendor_tinno" path="vendor/tinno" remote="github" revision="q" />
-  <project name="BlissRoms-Devices/proprietary_vendor_yu" path="vendor/yu" remote="github" revision="q" />
+  <project name="vendor_xiaomi" path="vendor/xiaomi" remote="blisspvt" revision="q"/>
+
   <!--Kernel-->
-  <project name="BlissRoms-Devices/android_kernel_tinno_msm8937" path="kernel/tinno/msm8937" remote="github" revision="q" />
+  <project name="stormbreaker-project/lavender" path="kernel/xiaomi/lavender" remote="github" revision="oldcam-rebase" />
+
 </manifest>
