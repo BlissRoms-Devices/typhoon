@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <remote name="blisspvt"
+           fetch="ssh://git@github.com/BlissRoms-Devices" />
   <!--Device trees-->
-  <project name="UMIDIGI-A5-Pro/device_UMIDIGI_breeze" path="device/UMIDIGI/breeze" remote="github" revision="blissify" />
+  <project name="kenzoreed/device_xiaomi_sagit" path="device/xiaomi/sagit" remote="github" revision="bliss" />
+  <project name="kenzoreed/device_xiaomi_msm8998-common" path="device/xiaomi/msm8998-common" remote="github" revision="bliss" />
   <!--Vendor-->
-  <project name="UMIDIGI-A5-Pro/android_vendor_UMIDIGI_breeze" path="vendor/UMIDIGI/breeze" remote="github" revision="master" />
+  <project name="kenzoreed/ph" path="kernel/xiaomi/msm8998" remote="github" revision="ten-placeholder" />
+  <project name="vendor_xiaomi" path="vendor/xiaomi" remote="blisspvt" revision="q"/>
   <!-- Xtras -->
-  <project name="UMIDIGI-A5-Pro/vendor_xtras" path="vendor/xtras" remote="github" revision="test" />
+  <project name="kenzoreed/vendor_apps_MiuiCamera" path="vendor/apps/MiuiCamera" remote="github" revision="10" />
 </manifest>
