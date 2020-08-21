@@ -5,6 +5,8 @@
   <project name="BlissRoms-Devices/android_device_xiaomi_sm6150-common" path="device/xiaomi/sm6150-common" remote="github" revision="q" />
   <project name="BlissRoms-Devices/android_device_xiaomi_whyred" path="device/xiaomi/whyred" remote="github" revision="q"/>
   <project name="BlissRoms-Devices/android_device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="github" revision="q-whyred"/>
+  <project name="kenzoreed/device_xiaomi_sagit" path="device/xiaomi/sagit" remote="github" revision="bliss" />
+  <project name="kenzoreed/device_xiaomi_msm8998-common" path="device/xiaomi/msm8998-common" remote="github" revision="bliss" />
   <project name="BlissRoms-Devices/android_device_samsung_universal9810-common" path="device/samsung/universal9810-common" remote="github" revision="q" />
   <project name="BlissRoms-Devices/android_device_samsung_star2lte" path="device/samsung/star2lte" remote="github" revision="q" />
   <project name="BlissRoms-Devices/android_device_samsung_crownlte" path="device/samsung/crownlte" remote="github" revision="q" />
@@ -29,6 +31,7 @@
   <project name="BlissRoms-Devices/android_kernel_samsung_universal9810" path="kernel/samsung/universal9810" remote="github" revision="4.9.118_q" />
   <project name="BlissRoms-Devices/android_kernel_huawei_angler" path="kernel/huawei/angler" remote="github" revision="q" />
   <project name="xiaomeme-whyred/android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="github" revision="10.x"/>
+  <project name="kenzoreed/ph" path="kernel/xiaomi/msm8998" remote="github" revision="ten-placeholder" />
   <project name="BlissRoms-Devices/android_kernel_tinno_msm8937" path="kernel/tinno/msm8937" remote="github" revision="q" />
   <!--<project name="vineelsai26/android_kernel_xiaomi_onclite" path="kernel/xiaomi/onclite" remote="github" revision="10" /> -->
   <project name="LineageOS/android_kernel_google_marlin" path="kernel/google/marlin" remote="github" revision="lineage-17.1" />
@@ -38,4 +41,5 @@
   <project name="BlissRoms/platform_external_google" path="external/google" remote="github" revision="q" />
   <!-- MiuiCamera -->
   <project name="xiaomeme-whyred/vendor_MiuiCamera" path="vendor/MiuiCamera" remote="github" revision="10.x"/>
+  <project name="kenzoreed/vendor_apps_MiuiCamera" path="vendor/apps/MiuiCamera" remote="github" revision="10" />
 </manifest>
