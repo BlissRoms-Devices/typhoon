@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!--Device trees-->
-  <project name="BlissRoms-Devices/android_device_yu_garlic" path="device/yu/garlic" remote="github" revision="q" />
-  <project name="BlissRoms-Devices/android_device_tinno_msm8937-common" path="device/tinno/msm8937-common" remote="github" revision="q" />
+  <project name="UMIDIGI-A5-Pro/device_UMIDIGI_breeze" path="device/UMIDIGI/breeze" remote="github" revision="blissify" />
   <!--Vendor-->
-  <project name="BlissRoms-Devices/proprietary_vendor_tinno" path="vendor/tinno" remote="github" revision="q" />
-  <project name="BlissRoms-Devices/proprietary_vendor_yu" path="vendor/yu" remote="github" revision="q" />
-  <!--Kernel-->
-  <project name="BlissRoms-Devices/android_kernel_tinno_msm8937" path="kernel/tinno/msm8937" remote="github" revision="q" />
+  <project name="UMIDIGI-A5-Pro/android_vendor_UMIDIGI_breeze" path="vendor/UMIDIGI/breeze" remote="github" revision="master" />
+  <!-- Xtras -->
+  <project name="UMIDIGI-A5-Pro/vendor_xtras" path="vendor/xtras" remote="github" revision="test" />
 </manifest>
