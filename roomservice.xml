@@ -3,7 +3,7 @@
   <!--Device trees-->
   <project name="UMIDIGI-A5-Pro/device_UMIDIGI_breeze" path="device/UMIDIGI/breeze" remote="github" revision="blissify" />
   <!--Vendor-->
-  <project name="UMIDIGI-A5-Pro/android_vendor_UMIDIGI_breeze" path="vendor/UMIDIGI/breeze" remote="github" revision="master" />
+  <project name="UMIDIGI-A5-Pro/vendor_UMIDIGI_breeze" path="vendor/UMIDIGI/breeze" remote="github" revision="master" />
   <!-- Xtras -->
   <project name="UMIDIGI-A5-Pro/vendor_xtras" path="vendor/xtras" remote="github" revision="test" />
 </manifest>
