@@ -26,7 +26,7 @@
   <project name="BlissRoms-Devices/proprietary_vendor_yu" path="vendor/yu" remote="github" revision="q" />
   <!--Kernel-->
   <project name="GZR-Kernels/Optimus_Drunk_Phoenix" path="kernel/xiaomi/sm6150" remote="github" revision="10.0" />
-  <project name="BlissRoms-Devices/android_kernel_samsung_universal9810" path="kernel/samsung/universal9810" remote="github" revision="4.9.118_q" />
+  <project name="BlissRoms-Devices/android_kernel_samsung_universal9810" path="kernel/samsung/universal9810" remote="github" revision="4.9.x_upstream" />
   <project name="BlissRoms-Devices/android_kernel_huawei_angler" path="kernel/huawei/angler" remote="github" revision="q" />
   <project name="xiaomeme-whyred/android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="github" revision="10.x"/>
   <project name="BlissRoms-Devices/android_kernel_tinno_msm8937" path="kernel/tinno/msm8937" remote="github" revision="q" />
