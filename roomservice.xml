@@ -8,6 +8,7 @@
   <project name="crdroidandroid/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="10.0" />
 
   <!--Vendor-->
+  <project name="crdroidandroid/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="10.0-sm6150" />
 
   <!--Kernel-->
   <project name="GZR-Kernels/Optimus_Drunk_Phoenix" path="kernel/xiaomi/sm6150" remote="github" revision="10.0" />
