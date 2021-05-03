@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!--Device trees-->
-  <project name="BlissRoms-Devices/android_device_xiaomi_onclite" path="device/xiaomi/onclite" remote="github" revision="q" />
+  <project name="vineelsai26/device_xiaomi_onclite" path="device/xiaomi/onclite" remote="github" revision="r" />
 
   <!--Vendor-->
-  <project name="BlissRoms-Devices/android_vendor_xiaomi_onclite" path="vendor/xiaomi/onclite" remote="github" revision="q" />
+  <project name="Dhina17/android_vendor_xiaomi_onclite" path="vendor/xiaomi/onclite" remote="github" revision="lineage-18.1" />
 
   <!--Kernel-->
-  <project name="BlissRoms-Devices/android_kernel_xiaomi_onclite" path="kernel/xiaomi/onclite" remote="github" revision="q" />
+  <project name="Dhina17/android_kernel_xiaomi_onclite" path="kernel/xiaomi/onclite" remote="github" revision="lineage-18.1" />
 
 </manifest>
