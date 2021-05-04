@@ -14,6 +14,7 @@
   <project name="BlissRoms-Devices/android_device_google_marlin" path="device/google/marlin" remote="github" revision="q" />
   <project name="BlissRoms-Devices/android_device_yu_garlic" path="device/yu/garlic" remote="github" revision="q" />
   <project name="BlissRoms-Devices/android_device_tinno_msm8937-common" path="device/tinno/msm8937-common" remote="github" revision="q" />
+  <project name="BlissRoms-Devices/android_device_xiaomi_violet" path="device/xiaomi/violet" remote="github" revision="r" />
   <!--Hardware-->
   <project name="crdroidandroid/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="10.0" />
   <project name="BlissRoms/platform_hardware_samsung" path="hardware/samsung" remote="github" revision="q" />
@@ -24,12 +25,14 @@
   <project name="BlissRoms-Devices/vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="q"/>
   <project name="BlissRoms-Devices/proprietary_vendor_tinno" path="vendor/tinno" remote="github" revision="q" />
   <project name="BlissRoms-Devices/proprietary_vendor_yu" path="vendor/yu" remote="github" revision="q" />
+  <project name="ArrowOS-Devices/android_vendor_xiaomi_violet" path="vendor/xiaomi/violet" remote="github" revision="arrow-11.0" />
   <!--Kernel-->
   <project name="GZR-Kernels/Optimus_Drunk_Phoenix" path="kernel/xiaomi/sm6150" remote="github" revision="10.0" />
   <project name="BlissRoms-Devices/android_kernel_samsung_universal9810" path="kernel/samsung/universal9810" remote="github" revision="4.9.x_upstream" />
   <project name="BlissRoms-Devices/android_kernel_huawei_angler" path="kernel/huawei/angler" remote="github" revision="q" />
   <project name="xiaomeme-whyred/android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="github" revision="10.x"/>
   <project name="BlissRoms-Devices/android_kernel_tinno_msm8937" path="kernel/tinno/msm8937" remote="github" revision="q" />
+  <project name="ArrowOS-Devices/android_kernel_xiaomi_violet" path="kernel/xiaomi/violet" remote="github" revision="arrow-11.0" />
   <!--<project name="vineelsai26/android_kernel_xiaomi_onclite" path="kernel/xiaomi/onclite" remote="github" revision="10" /> -->
   <project name="LineageOS/android_kernel_google_marlin" path="kernel/google/marlin" remote="github" revision="lineage-17.1" />
   <!-- Clang -->
