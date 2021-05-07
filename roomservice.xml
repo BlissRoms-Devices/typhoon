@@ -5,5 +5,5 @@
   <!--Vendor-->
   <project name="UMIDIGI-A5-Pro/vendor_UMIDIGI_breeze" path="vendor/UMIDIGI/breeze" remote="github" revision="master" />
   <!-- Xtras -->
-  <project name="UMIDIGI-A5-Pro/vendor_xtras" path="vendor/xtras" remote="github" revision="test" />
+  <project name="UMIDIGI-A5-Pro/vendor_xtras" path="vendor/xtras" remote="github" revision="ten" />
 </manifest>
