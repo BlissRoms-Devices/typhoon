@@ -15,6 +15,7 @@
   <project name="BlissRoms-Devices/android_device_yu_garlic" path="device/yu/garlic" remote="github" revision="q" />
   <project name="BlissRoms-Devices/android_device_tinno_msm8937-common" path="device/tinno/msm8937-common" remote="github" revision="q" />
   <project name="BlissRoms-Devices/android_device_xiaomi_violet" path="device/xiaomi/violet" remote="github" revision="r" />
+  <project name="BlissRoms-Devices/android_device_xiaomi_lavender" path="device/xiaomi/lavender" remote="github" revision="q" />
   <!--Hardware-->
   <project name="crdroidandroid/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="10.0" />
   <project name="BlissRoms/platform_hardware_samsung" path="hardware/samsung" remote="github" revision="q" />
@@ -35,6 +36,7 @@
   <project name="ArrowOS-Devices/android_kernel_xiaomi_violet" path="kernel/xiaomi/violet" remote="github" revision="arrow-11.0" />
   <!--<project name="vineelsai26/android_kernel_xiaomi_onclite" path="kernel/xiaomi/onclite" remote="github" revision="10" /> -->
   <project name="LineageOS/android_kernel_google_marlin" path="kernel/google/marlin" remote="github" revision="lineage-17.1" />
+  <project name="stormbreaker-project/lavender" path="kernel/xiaomi/lavender" remote="github" revision="oldcam-rebase" />
   <!-- Clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-6607189" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6607189" remote="github" revision="10.0" clone-depth="1" />
   <!-- external/google -->
