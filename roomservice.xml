@@ -9,4 +9,14 @@
   <!--Kernel-->
   <project name="ArrowOS-Devices/android_kernel_xiaomi_violet" path="kernel/xiaomi/violet" remote="github" revision="arrow-11.0" />
 
+  <!--Remove Old Hals First-->
+  <remove-project name="platform_hardware_qcom_audio-sm8150-caf" />
+  <remove-project name="platform_hardware_qcom_display-sm8150-caf" />
+  <remove-project name="platform_hardware_qcom_media-sm8150-caf" />
+  
+  <!--Hals-->
+  <project name="Aftab-111/android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="github" revision="a" />
+  <project name="ArrowOS/android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="github" revision="arrow-11.0-caf-sm8150" />
+  <project name="ArrowOS/android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="github" revision="arrow-11.0-caf-sm8150" />
+
 </manifest>
