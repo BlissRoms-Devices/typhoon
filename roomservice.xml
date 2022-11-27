@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!--Device trees-->
-  <project name="BlissRoms-Devices/android_device_asus_X00TD" path="device/asus/X00TD" remote="github" revision="q" />
-  <!--Vendor-->
-  <project name="adiatul16/vendor_asus_X00T" path="vendor/asus/X00T" remote="github" revision="bliss" />
+  <project name="BlissRoms-Devices/android_device_asus_X00TD" path="device/asus/X00TD" remote="github" revision="typhoon" />
+  <project name="BlissRoms-Devices/device_asus_sdm660-common" path="device/asus/sdm660-common" remote="github" revision="typhoon" />
   <!--Kernel-->
-  <project name="adiatul16/android_kernel_asus_sdm660" path="kernel/asus/sdm660" remote="github" revision="ten" />
-  <!-- Clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" />
+  <project name="RyuujiX/android_kernel_asus_sdm660" path="kernel/asus/sdm660" remote="github" revision="r7/hmp" />
+  <!--Vendor-->
+  <project name="BlissRoms-Devices/vendor_asus_X00TD" path="vendor/asus/X00TD" remote="github" revision="typhoon" />
 </manifest>
