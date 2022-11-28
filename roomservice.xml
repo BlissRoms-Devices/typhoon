@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!--Device trees-->
+  <remove-project name="android_packages_resources_devicesettings"/>
   <project name="BlissRoms-Devices/android_device_asus_X00TD" path="device/asus/X00TD" remote="github" revision="typhoon" />
   <project name="BlissRoms-Devices/device_asus_sdm660-common" path="device/asus/sdm660-common" remote="github" revision="typhoon" />
-  <!--Kernel-->
   <project name="RyuujiX/android_kernel_asus_sdm660" path="kernel/asus/sdm660" remote="github" revision="r7/hmp" />
-  <!--Vendor-->
-  <project name="BlissRoms-Devices/vendor_asus_X00TD" path="vendor/asus/X00TD" remote="github" revision="typhoon" />
+  <project name="BlissRoms-Devices/vendor_asus_X00TD" path="vendor/asus" remote="github" revision="typhoon" />
+  <project path="packages/resources/devicesettings" name="drkphnx/packages_resources_devicesettings" remote="github" revision="snow" />
 </manifest>
