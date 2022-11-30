@@ -7,7 +7,7 @@
   <project name="SharmagRit/android_vendor_xiaomi_phoenix" path="vendor/xiaomi/phoenix" remote="github" revision="twelve" />
 
   <!--Kernel-->
-  <project name="San4255/risan-kernel_xiaomi_phoenix" path="kernel/xiaomi/phoenix" remote="github" revision="risen" clone-depth="1" />
+  <project name="San4255/risan-kernel_xiaomi_phoenix" path="kernel/xiaomi/phoenix" remote="github" revision="risan" clone-depth="1" />
 
   <!-- Extras -->
   <project path="device/xiaomi/extras" name="ArrowOS-Devices/android_device_xiaomi_extras" remote="github" revision="arrow-12.0" />
