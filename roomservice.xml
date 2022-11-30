@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!--Device trees-->
-  <project name="BlissRoms-Devices/android_device_xiaomi_phoenix" path="device/xiaomi/phoenix" remote="github" revision="q" />
-  <project name="BlissRoms-Devices/android_device_xiaomi_sm6150-common" path="device/xiaomi/sm6150-common" remote="github" revision="q" />
-
-  <!--Hardware-->
-  <project name="crdroidandroid/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="10.0" />
+  <project name="shripal17/device_xiaomi_phoenix" path="device/xiaomi/phoenix" remote="github" revision="typhoon-staging" />
 
   <!--Vendor-->
-  <project name="crdroidandroid/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="10.0-sm6150" />
+  <project name="SharmagRit/android_vendor_xiaomi_phoenix" path="vendor/xiaomi/phoenix" remote="github" revision="twelve" />
 
   <!--Kernel-->
-  <project name="GZR-Kernels/Optimus_Drunk_Phoenix" path="kernel/xiaomi/sm6150" remote="github" revision="10.0" />
+  <project name="San4255/risan-kernel_xiaomi_phoenix" path="kernel/xiaomi/phoenix" remote="github" revision="risen" clone-depth="1" />
 
-  <!-- Clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-6607189" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6607189" remote="github" revision="10.0" clone-depth="1" />
+  <!-- Extras -->
+  <project path="device/xiaomi/extras" name="ArrowOS-Devices/android_device_xiaomi_extras" remote="github" revision="arrow-12.0" />
 
 </manifest>
