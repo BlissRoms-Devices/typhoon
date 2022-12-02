@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Please do not manually edit this file-->
 <manifest>
-  <!--Device trees-->
-  <project name="shripal17/device_xiaomi_phoenix" path="device/xiaomi/phoenix" remote="github" revision="typhoon-staging" />
-
-  <!--Vendor-->
   <project name="SharmagRit/android_vendor_xiaomi_phoenix" path="vendor/xiaomi/phoenix" remote="github" revision="twelve" />
-
-  <!--Kernel-->
-  <project name="San4255/risan-kernel_xiaomi_phoenix" path="kernel/xiaomi/phoenix" remote="github" revision="risan" clone-depth="1" />
-
-  <!-- Extras -->
-  <project path="device/xiaomi/extras" name="ArrowOS-Devices/android_device_xiaomi_extras" remote="github" revision="arrow-12.0" />
-
+  <project name="San4255/risan-kernel_xiaomi_phoenix" path="kernel/xiaomi/phoenix" remote="github" revision="risan" />
+  <project name="ArrowOS-Devices/android_device_xiaomi_extras" path="device/xiaomi/extras" remote="github" revision="arrow-12.0" />
+  <project name="shripal17/device_xiaomi_phoenix" path="device/xiaomi/phoenix" remote="github" revision="typhoon-staging" />
 </manifest>
