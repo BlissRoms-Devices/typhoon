@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="BlissRoms-Devices/android_device_asus_obiwan" path="device/asus/obiwan" remote="github" revision="arcadia" />
-  <project name="BlissRoms-Devices/android_device_asus_sm8250-common" path="device/asus/sm8250-common" remote="github" revision="arcadia" />
-  <project name="BlissRoms-Devices/android_kernel_asus_sm8250" path="kernel/asus/sm8250" remote="github" revision="arcadia" />
-  <project name="BlissRoms-Devices/proprietary_vendor_asus" path="vendor/asus" remote="github" revision="arcadia" />
+  <project name="BlissRoms-Devices/android_device_asus_obiwan" path="device/asus/obiwan" remote="github" revision="typhoon" />
+  <project name="BlissRoms-Devices/android_kernel_asus_sm8250" path="kernel/asus/sm8250" remote="github" revision="typhoon" />
+  <project name="BlissRoms-Devices/proprietary_vendor_asus" path="vendor/asus" remote="github" revision="typhoon" />
 </manifest>
