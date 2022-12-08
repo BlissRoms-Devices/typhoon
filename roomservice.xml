@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="BlissRoms-Devices/android_device_asus_I01WD" path="device/asus/I01WD" remote="github" revision="typhoon" />
-  <project name="BlissRoms-Devices/android_device_asus_sm8150-common" path="device/asus/sm8150-common" remote="github" revision="typhoon" />
-  <project name="BlissRoms-Devices/android_kernel_asus_sm8150" path="kernel/asus/sm8150" remote="github" revision="typhoon" />
-  <project name="BlissRoms-Devices/proprietary_vendor_asus" path="vendor/asus" remote="github" revision="typhoon" />
+  <project name="notayan99/android_device_xiaomi_chime" path="device/xiaomi/chime" remote="github" revision="tokyo" />
+  <project name="frstprjkt/kernel_xiaomi_chime-anya" path="kernel/xiaomi/chime" remote="github" revision="thirteen" />
+  <project name="cosm1f/vendor_xiaomi_chime" path="vendor/xiaomi/chime" remote="gitlab" revision="tokyo" />
+  <project name="arrowos-devices/Android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="arrow-13.0" />
+  <project name="Project-Nexus/nexus-clang" path="prebuilts/clang/host/linux-x86/nexus-clang" remote="gitlab" revision="nexus-15" />
 </manifest>
