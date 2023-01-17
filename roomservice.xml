@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="BlissRoms-Devices/android_device_google_sunfish" path="device/google/sunfish" remote="github" revision="typhoon" />
-  <project name="LineageOS/android_kernel_google_msm-4.14" path="kernel/google/msm-4.14" remote="github" revision="lineage-20" />
-  <project name="BlissRoms-Devices/proprietary_vendor_google_sunfish" path="vendor/google/sunfish" remote="github" revision="typhoon" />
+  <project name="BlissRoms-Devices/android_device_google_barbet" path="device/google/barbet" remote="github" revision="typhoon" />
+  <project name="BlissRoms-Devices/android_device_google_redbull" path="device/google/redbull" remote="github" revision="typhoon" />
+  <project name="LineageOS/android_kernel_google_redbull" path="kernel/google/redbull" remote="github" revision="lineage-20" />
+  <project name="BlissRoms-Devices/vendor_google_barbet" path="vendor/google/barbet" remote="github" revision="typhoon" />
 </manifest>
