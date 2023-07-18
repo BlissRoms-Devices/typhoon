@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="android_vendor_qcom_opensource_usb" />
   <project name="BlissRoms-Devices/android_device_asus_obiwan" path="device/asus/obiwan" remote="github" revision="typhoon" />
   <project name="BlissRoms-Devices/android_kernel_asus_sm8250" path="kernel/asus/sm8250" remote="github" revision="typhoon" />
   <project name="BlissRoms-Devices/proprietary_vendor_asus" path="vendor/asus" remote="github" revision="typhoon" />
-  <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" groups="qcom,waipio-vendor" remote="lineage" revision="lineage-19.1" />
 </manifest>
