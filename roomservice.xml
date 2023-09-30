@@ -16,9 +16,11 @@
   <project name="BlissRoms-Devices/android_device_tinno_msm8937-common" path="device/tinno/msm8937-common" remote="github" revision="q" />
   <project name="BlissRoms-Devices/android_device_xiaomi_violet" path="device/xiaomi/violet" remote="github" revision="r" />
   <project name="BlissRoms-Devices/android_device_xiaomi_lavender" path="device/xiaomi/lavender" remote="github" revision="q" />
+  <project path="device/samsung/a70q" name="Pandaispro/android_device_samsung_a70q" remote="github" revision="bliss"/>
   <!--Hardware-->
   <project name="crdroidandroid/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="10.0" />
   <project name="BlissRoms/platform_hardware_samsung" path="hardware/samsung" remote="github" revision="q" />
+  <project path="hardware/samsung" name="PixelExperience/hardware_samsung" remote="github" revision="thirteen"/>
   <!--Vendor-->
   <project name="BlissRoms-Devices/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="q" />
   <project name="BlissRoms-Devices/android_vendor_huawei" path="vendor/huawei" remote="github" revision="q" />
@@ -27,6 +29,7 @@
   <project name="BlissRoms-Devices/proprietary_vendor_tinno" path="vendor/tinno" remote="github" revision="q" />
   <project name="BlissRoms-Devices/proprietary_vendor_yu" path="vendor/yu" remote="github" revision="q" />
   <project name="ArrowOS-Devices/android_vendor_xiaomi_violet" path="vendor/xiaomi/violet" remote="github" revision="arrow-11.0" />
+  <project path="vendor/samsung/a70q" name="rtd1250/proprietary_vendor_samsung_a70q" remote="github" revision="lineage-20"/>
   <!--Kernel-->
   <project name="GZR-Kernels/Optimus_Drunk_Phoenix" path="kernel/xiaomi/sm6150" remote="github" revision="10.0" />
   <project name="BlissRoms-Devices/android_kernel_samsung_universal9810" path="kernel/samsung/universal9810" remote="github" revision="4.9.x_upstream" />
@@ -34,6 +37,7 @@
   <project name="xiaomeme-whyred/android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="github" revision="10.x"/>
   <project name="BlissRoms-Devices/android_kernel_tinno_msm8937" path="kernel/tinno/msm8937" remote="github" revision="q" />
   <project name="ArrowOS-Devices/android_kernel_xiaomi_violet" path="kernel/xiaomi/violet" remote="github" revision="arrow-11.0" />
+  <project path="kernel/samsung/sm6150" name="rtd1250/android_kernel_samsung_sm6150" remote="github" revision="lineage-20"/>
   <!--<project name="vineelsai26/android_kernel_xiaomi_onclite" path="kernel/xiaomi/onclite" remote="github" revision="10" /> -->
   <project name="LineageOS/android_kernel_google_marlin" path="kernel/google/marlin" remote="github" revision="lineage-17.1" />
   <project name="stormbreaker-project/lavender" path="kernel/xiaomi/lavender" remote="github" revision="oldcam-rebase" />
