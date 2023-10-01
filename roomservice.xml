@@ -2,6 +2,6 @@
 <manifest>
   <project name="BlissRoms-Devices/android_device_asus_X00TD" path="device/asus/X00TD" remote="github" revision="typhoon" />
   <project name="BlissRoms-Devices/device_asus_sdm660-common" path="device/asus/sdm660-common" remote="github" revision="typhoon" />
-  <project name="VoltageOS-Devices/kernel_asus_sdm660" path="kernel/asus/sdm660" remote="github" 13" />
+  <project name="VoltageOS-Devices/kernel_asus_sdm660" path="kernel/asus/sdm660" remote="github" revision="13" />
   <project name="BlissRoms-Devices/vendor_asus_X00TD" path="vendor/asus" remote="github" revision="typhoon" />
 </manifest>
